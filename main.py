@@ -34,7 +34,8 @@ while True:
         h = 0
         m = 0
         s = 0
-    if (datetime.datetime.now().month
+    if (datetime.datetime.now().month == 2):
+        print("it's February!")
     if (weeks == 5):
         months += 1
         weeks = 0
