@@ -14,7 +14,7 @@ decades
 centuries  
 millenniums  
 
-If you ever wanted to run a stopwatch for 1 centurie, now you can!
+If you ever wanted to run a stopwatch for 1 century, now you can!
 
 To-Do:  
   ~Make the windows version~
