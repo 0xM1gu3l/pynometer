@@ -92,7 +92,7 @@ while True:
         format(weeks, '02')) + ":" + str(format(days, '02')) + ":" + str(format(h, '02')) + ":" + str(
         format(m, '02')) + ":" + str(format(s, '02')))
     print("Press 'Control + C' to exit.")
-    time.sleep(0.0055)
+    time.sleep(1)
     if platform.system() == 'Windows':
         winClear()
     else:
