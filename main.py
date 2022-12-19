@@ -86,7 +86,7 @@ while True:
         h = 0
         m = 0
         s = 0
-    print("format: millenniums:centuries:decades:years:months:weeks:days:hours:minutes:seconds:milliseconds")
+    print("format: millenniums:centuries:decades:years:months:weeks:days:hours:minutes:seconds")
     print("time: " + str(format(millenniums, '02')) + ":" + str(format(centuries, '02')) + ":" + str(
         format(decades, '02')) + ":" + str(format(years, '02')) + ":" + str(format(months, '02')) + ":" + str(
         format(weeks, '02')) + ":" + str(format(days, '02')) + ":" + str(format(h, '02')) + ":" + str(
