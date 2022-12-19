@@ -11,7 +11,6 @@ if platform.system() == 'Windows':
     winClear()
 else:
     os.system("clear")
-ms = 0
 s = 0
 m = 0
 h = 0
@@ -24,9 +23,6 @@ centuries = 0
 millenniums = 0
 
 while True:
-    if ms == 100:
-        s += 1
-        ms = 0
     if s == 60:
         m += 1
         s = 0
@@ -94,11 +90,11 @@ while True:
     print("time: " + str(format(millenniums, '02')) + ":" + str(format(centuries, '02')) + ":" + str(
         format(decades, '02')) + ":" + str(format(years, '02')) + ":" + str(format(months, '02')) + ":" + str(
         format(weeks, '02')) + ":" + str(format(days, '02')) + ":" + str(format(h, '02')) + ":" + str(
-        format(m, '02')) + ":" + str(format(s, '02')) + ":" + str(format(ms, '02')))
+        format(m, '02')) + ":" + str(format(s, '02'))
     print("Press 'Control + C' to exit.")
     time.sleep(0.0055)
     if platform.system() == 'Windows':
         winClear()
     else:
         os.system("clear")
-    ms += 1
+    s += 1
