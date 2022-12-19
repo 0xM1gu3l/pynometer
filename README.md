@@ -1,4 +1,4 @@
-# PYnometer, The most complete cronometer in python!
+# PYnometer, The most complete stopwatch in python!
 
 What this cronometer/stopwatch can do?
 
