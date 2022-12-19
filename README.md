@@ -26,7 +26,7 @@ Requirements:
 OSX/Linux:
 ``python3 main.py``  
 Windows:
-``TODO``
+``python3 main.py``
 
 PS: this stopwatch does not have a pause button!  
 PPS: and does not have a reset button too!
