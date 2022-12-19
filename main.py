@@ -12,15 +12,15 @@ if platform.system() == 'Windows':
 else:
     os.system("clear")
 ms = 0
-s = 50
-m = 59
-h = 23
-days = 6
-weeks = 4
-months = 11
-years = 9
-decades = 9
-centuries = 999
+s = 0
+m = 0
+h = 0
+days = 0
+weeks = 0
+months = 0
+years = 0
+decades = 0
+centuries = 0
 millenniums = 0
 
 while True:
