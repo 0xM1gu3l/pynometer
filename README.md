@@ -1,6 +1,6 @@
 # PYnometer, The most complete stopwatch in python!
 
-What this cronometer/stopwatch can do?
+What this chronometer/stopwatch can do?
 
 this thing can record:
 seconds  
