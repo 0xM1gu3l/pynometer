@@ -1,53 +1,58 @@
 import time
 import os
-import datetime
-import calendar
+import platform
 
-import keyboard
 
-os.system("clear")
+def winClear():
+    os.system("cls")
+
+
+if platform.system() == 'Windows':
+    winClear()
+else:
+    os.system("clear")
 ms = 0
-s = 0
-m = 0
-h = 0
-days = 0
-weeks = 0
-months = 0
-years = 0
-decades = 0
-centuries = 0
-millenium = 0
+s = 50
+m = 59
+h = 23
+days = 6
+weeks = 4
+months = 11
+years = 9
+decades = 9
+centuries = 999
+millenniums = 0
 
 while True:
-    if (ms == 100):
+    if ms == 100:
         s += 1
         ms = 0
-    if (s == 60):
+    if s == 60:
         m += 1
         s = 0
-    if (m == 60):
+    if m == 60:
         h += 1
         m = 0
         s = 0
-    if (h == 24):
+    if h == 24:
         days += 1
         h = 0
         m = 0
         s = 0
-    if (days == 7):
+    if days == 7:
         weeks += 1
         days = 0
         h = 0
         m = 0
         s = 0
-    if (weeks == 5):
+    if weeks == 5:
         months += 1
         weeks = 0
         days = 0
         h = 0
         m = 0
         s = 0
-    if (months == 12):
+    if months == 12:
         years += 1
         months = 0
         weeks = 0
@@ -55,7 +60,7 @@ while True:
         h = 0
         m = 0
         s = 0
-    if (years == 10):
+    if years == 10:
         decades += 1
         years = 0
         months = 0
@@ -64,7 +69,7 @@ while True:
         h = 0
         m = 0
         s = 0
-    if (decades == 10):
+    if decades == 10:
         centuries += 1
         decades = 0
         years = 0
@@ -74,8 +79,8 @@ while True:
         h = 0
         m = 0
         s = 0
-    if (centuries == 1000):
-        millenium += 1
+    if centuries == 1000:
+        millenniums += 1
         centuries = 0
         decades = 0
         years = 0
@@ -85,9 +90,15 @@ while True:
         h = 0
         m = 0
         s = 0
-    print("format: millenium:centuries:decades:years:months:weeks:days:hours:minutes:seconds:microseconds")
-    print("time: " + str(format(millenium, '02')) + ":" + str(format(centuries, '02')) + ":" + str(format(decades, '02')) + ":" + str(format(years, '02')) + ":" + str(format(months, '02')) + ":" + str(format(weeks, '02')) + ":" + str(format(days, '02')) + ":" + str(format(h, '02')) + ":" + str(format(m, '02')) + ":" + str(format(s, '02')) + ":" + str(format(ms, '02')))
+    print("format: millenniums:centuries:decades:years:months:weeks:days:hours:minutes:seconds:microseconds")
+    print("time: " + str(format(millenniums, '02')) + ":" + str(format(centuries, '02')) + ":" + str(
+        format(decades, '02')) + ":" + str(format(years, '02')) + ":" + str(format(months, '02')) + ":" + str(
+        format(weeks, '02')) + ":" + str(format(days, '02')) + ":" + str(format(h, '02')) + ":" + str(
+        format(m, '02')) + ":" + str(format(s, '02')) + ":" + str(format(ms, '02')))
     print("Press 'Control + C' to exit.")
     time.sleep(0.0055)
-    os.system("clear")
+    if platform.system() == 'Windows':
+        winClear()
+    else:
+        os.system("clear")
     ms += 1
