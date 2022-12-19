@@ -90,7 +90,7 @@ while True:
     print("time: " + str(format(millenniums, '02')) + ":" + str(format(centuries, '02')) + ":" + str(
         format(decades, '02')) + ":" + str(format(years, '02')) + ":" + str(format(months, '02')) + ":" + str(
         format(weeks, '02')) + ":" + str(format(days, '02')) + ":" + str(format(h, '02')) + ":" + str(
-        format(m, '02')) + ":" + str(format(s, '02'))
+        format(m, '02')) + ":" + str(format(s, '02')))
     print("Press 'Control + C' to exit.")
     time.sleep(0.0055)
     if platform.system() == 'Windows':

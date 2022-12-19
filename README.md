@@ -3,7 +3,6 @@
 What this cronometer/stopwatch can do?
 
 this thing can record:
-milliseconds
 seconds  
 minutes  
 hours  
