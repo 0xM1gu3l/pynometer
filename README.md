@@ -18,8 +18,10 @@ millenniums
 If you ever wanted to run a stopwatch for 1 centurie, now you can!
 
 To-Do:  
-  Make the windows version
-  
+  ~Make the windows version~
+
+Requirements:
+  Python >= 3.9  
  How to run?:
 
 OSX/Linux:
