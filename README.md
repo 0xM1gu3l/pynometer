@@ -28,5 +28,24 @@ OSX/Linux:
 Windows:
 ``python3 main.py``
 
-PS: this stopwatch does not have a pause button!  
-PPS: and does not have a reset button too!
+P.S.: this stopwatch does not have a pause button...  
+And does not have a reset button too!  
+It's a only way road!  
+Goodluck!  
+I think  
+idk  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤ  
+ㅤㅤㅤ  
+ㅤ  
+bruh
